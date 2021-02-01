@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+.calculator{
+    width: 200px;
+    margin: 0 auto;
+    background: linear-gradient(white,lightgrey);
+}
+.calculator input{
+    padding: 10px;
+    width: 90%;
+    border: 2px solid grey;
+}
+.btnBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn{
+    padding: 15px;
+    margin: 5px;
+    background-color: rgb(121, 118, 118);
+    color: rgb(212, 211, 211);
+    font-size: 16px;
+}
+.btn:hover{
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+    color: rgb(255, 255, 255);
+}
